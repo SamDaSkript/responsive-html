@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>Real Time Editor Remake</title>
+        <script src="scripts.js" ></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <div class="topnav">
+            <a class="save">COMING SOON!</a>
+            <a class="load">COMING SOON!</a>
+            <a class="reset" onclick="resetArea()">Reset Workspace</a>
+          </div>
+    </head>
+    <body>
+        <div class="main">
+            <textarea id="editor-textarea" onkeyup="refresh()" placeholder="Code here..."></textarea>
+            <iframe id="viewer"></iframe>
+        </div>
+    </body>
+</html>
